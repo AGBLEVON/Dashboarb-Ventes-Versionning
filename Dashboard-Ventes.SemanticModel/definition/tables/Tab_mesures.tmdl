@@ -1,0 +1,130 @@
+table Tab_mesures
+	lineageTag: d8b9324c-c7eb-4f04-b0f6-a910dc281f75
+
+	measure Nbrebaniere = COUNTROWS(DimBanniere)
+		formatString: 0
+		displayFolder: Inventaire
+		lineageTag: ccbecbea-15db-441a-9079-51aab3b2e30d
+
+	measure NbreCategorie = COUNTROWS(DimCategorie)
+		formatString: 0
+		displayFolder: Inventaire
+		lineageTag: ece31719-c8c1-45e1-ac75-2db567db2812
+
+	measure NbreDept = COUNTROWS(DimDept)
+		formatString: 0
+		displayFolder: Inventaire
+		lineageTag: 498e2927-9287-4d79-90c8-e8c9e507e200
+
+	measure NbreFournisseur = COUNTROWS(DimFournisseur)
+		formatString: 0
+		displayFolder: Inventaire
+		lineageTag: 3c4b66a8-98d3-4071-a700-6c241e89eafc
+
+	measure NbreMagasin = COUNTROWS(DimMagasin)
+		formatString: 0
+		displayFolder: Inventaire
+		lineageTag: 39752a6d-18f3-49ac-a96e-80ed29acba46
+
+	measure NbreProduit = COUNTROWS(DimProduit)
+		formatString: 0
+		displayFolder: Inventaire
+		lineageTag: 1cd8fe7c-9510-459d-a2fa-447faccca290
+
+	measure NbreTransactions = COUNTROWS(FaitVentes)
+		formatString: #,0
+		lineageTag: 350bed4c-0cd6-404d-a4df-66d4aac5b90e
+
+	measure VentesBrutes = SUMX(FaitVentes,FaitVentes[Unités vendues]* RELATED(DimProduit[Prix unitaire]))
+		formatString: #,0
+		lineageTag: 642b4a37-69b6-4f56-a548-d75d0b3e23e4
+
+	measure Couts = SUMX(FaitVentes, FaitVentes[Unités vendues]* RELATED(DimProduit[Coût unitaire]))
+		formatString: #,0.00
+		lineageTag: 90f07ce7-ab6d-4580-bdd6-6be14614580e
+
+	measure Rabais = SUMX(FaitVentes, FaitVentes[Rabais en %]* [VentesBrutes])
+		formatString: #,0.00
+		lineageTag: 57b7931f-f1eb-4001-969b-ced2de3b040d
+
+	measure VentesNettes = [VentesBrutes] - [Rabais]
+		formatString: #,0.00
+		lineageTag: e40ebc62-44cb-4924-af72-93770f4f6d3f
+
+	measure Marges = [VentesNettes] - [Couts]
+		formatString: #,0.00
+		lineageTag: a759a942-e798-4994-b2a4-85568cab6553
+
+	measure TitreDynamique = SELECTEDVALUE('Indicateurs_Qualités'[indicateurs])
+		lineageTag: e9e1e15a-fbe3-43c3-8fb4-d76225cbf9ee
+
+	measure IndiqDynamique = ```
+			
+			VAR indicateur =SELECTEDVALUE('Indicateurs_Qualités'[indicateurs]) 
+			RETURN
+			SWITCH( indicateur,
+			"Nombre de Magazin", [NbreMagasin],
+			"Transactions", [NbreTransactions],
+			"Ventes Brutes", [VentesBrutes],
+			"Ventes Nettes", [VentesNettes],
+			"Marges", [Marges],
+			"Rabais", [Rabais],
+			"Coûts",[Couts],
+			BLANK())
+			```
+		formatString: #,0
+		lineageTag: 49080572-44bd-456f-85d2-0ae8c34f43ef
+
+	measure Mesure
+		lineageTag: f37954c4-9896-424a-b0a3-a0fd46c1db74
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure TitreDynamiqueDistrict = ```
+			
+			 VAR x= SELECTEDVALUE('Indicateurs_Qualités'[indicateurs])
+			 RETURN
+			 SWITCH(x,
+			 "Nombre de Magazin","Magazin Par District",
+			 "Transactions","Transactions Par District",
+			 "Ventes Brutes","Ventes Brutes Par District",
+			 "Ventes Nettes", "Ventes Nettes Par District",
+			 "Marges","Marges Par District",
+			 "Rabais","Rabais Par District",
+			 "Coûts","Coûts Par District",
+			 BLANK()
+			 )
+			
+			```
+		lineageTag: 92f5c932-68fa-4536-a707-362c2a787f48
+
+	measure TOP5DynamiqueDistrict = ```
+			
+			 VAR x= SELECTEDVALUE('Indicateurs_Qualités'[indicateurs])
+			 RETURN
+			 SWITCH(x,
+			 "Nombre de Magazin","Magazin Par District TOP 5",
+			 "Transactions","Transactions Par District TOP 5",
+			 "Ventes Brutes","Ventes Brutes Par District TOP 5",
+			 "Ventes Nettes", "Ventes Nettes Par District TOP 5",
+			 "Marges","Marges Par District TOP 5",
+			 "Rabais","Rabais Par District TOP 5",
+			 "Coûts","Coûts Par District TOP 5",
+			 BLANK()
+			 )
+			
+			```
+		lineageTag: ab1e7f61-8b72-4a77-81bd-6daf4f55a41f
+
+	partition Tab_mesures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Colonne 1" = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Colonne 1", type text}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Type modifié",{"Colonne 1"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_ResultType = Table
+

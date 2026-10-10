@@ -1,0 +1,5268 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_banniere": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimBanniere"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim banniere": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimBanniere": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_banniere.numéro_de_la_bannière": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimBanniere",
+			          "ConceptualProperty": "Numéro de la bannière"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro de la bannière": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_banniere.nom_de_la_bannière": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimBanniere",
+			          "ConceptualProperty": "Nom de la bannière"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom de la bannière": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_categorie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCategorie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim categorie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimCategorie": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_categorie.numéro_de_la_catégorie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCategorie",
+			          "ConceptualProperty": "Numéro de la catégorie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro de la catégorie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_categorie.nom_de_la_catégorie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimCategorie",
+			          "ConceptualProperty": "Nom de la catégorie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom de la catégorie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_dept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim dept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimDept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_dept.numéro_de_département": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDept",
+			          "ConceptualProperty": "Numéro de département"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro de département": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_dept.nom_du_département": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDept",
+			          "ConceptualProperty": "Nom du département"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom du département": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fournisseur": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimFournisseur"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim fournisseur": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimFournisseur": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fournisseur.numéro_du_fournisseur": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimFournisseur",
+			          "ConceptualProperty": "Numéro du fournisseur"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro du fournisseur": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fournisseur.nom_du_fournisseur": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimFournisseur",
+			          "ConceptualProperty": "Nom du fournisseur"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom du fournisseur": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fournisseur.ville": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimFournisseur",
+			          "ConceptualProperty": "Ville"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ville": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fournisseur.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimFournisseur",
+			          "ConceptualProperty": "District"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim magasin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimMagasin": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.numéro_du_magasin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Numéro du magasin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro du magasin": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.numéro_de_la_bannière": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Numéro de la bannière"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numéro de la bannière": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.numéro_de_la_catégorie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Numéro de la catégorie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numéro de la catégorie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.ville": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Ville"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ville": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.code_postal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Code postal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "code postal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id postal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "key postal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.région": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Région"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "région": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "District"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.date_douverture": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Date d'ouverture"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date d'ouverture": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment d'ouverture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period d'ouverture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_magasin.date_de_fermeture": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Date de fermeture"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date de fermeture": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment de fermeture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period de fermeture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.pieds_carré": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Pieds carrés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pieds carré": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pied carré": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.renouvellement_du_bail": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Renouvellement du bail"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "renouvellement du bail": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "renouvellement du security": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "renouvellement du surety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "renouvellement du payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "renouvellement du bond": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_magasin.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dim_magasin.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMagasin",
+			          "ConceptualProperty": "Longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim produit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimProduit": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.numéro_du_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Numéro du produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro du produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.nom_du_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Nom du produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom du produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.couleur_du_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Couleur du produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "couleur du produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.famille_du_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Famille du produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "famille du produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.numéro_de_département": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Numéro de département"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numéro de département": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.numéro_du_fournisseur": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Numéro du fournisseur"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numéro du fournisseur": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.prix_unitaire": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Prix unitaire"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prix unitaire": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.coût_unitaire": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Coût unitaire"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coût unitaire": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.délai_de_la_commande": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Délai de la commande"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "délai de la commande": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_produit.discontinué": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimProduit",
+			          "ConceptualProperty": "Discontinué"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discontinué": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fait vente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FaitVentes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente.numéro_de_facture": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes",
+			          "ConceptualProperty": "Numéro de facture"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numéro de facture": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente.numéro_du_magasin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes",
+			          "ConceptualProperty": "Numéro du magasin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numéro du magasin": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente.numéro_du_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes",
+			          "ConceptualProperty": "Numéro du produit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "numéro du produit": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente.unités_vendue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes",
+			          "ConceptualProperty": "Unités vendues"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unités vendue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unité vendue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente.rabais_en_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes",
+			          "ConceptualProperty": "Rabais en %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rabais en %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rabais en percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "rabais en pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "fait_vente.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FaitVentes",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "tab_mesure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tab mesure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tab_mesures": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbrebaniere": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Nbrebaniere"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbrebaniere": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_categorie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "NbreCategorie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre categorie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NbreCategorie": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_dept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "NbreDept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre dept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NbreDept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_fournisseur": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "NbreFournisseur"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre fournisseur": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NbreFournisseur": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_magasin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "NbreMagasin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre magasin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NbreMagasin": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Magasin": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_produit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "NbreProduit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre produit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NbreProduit": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_transactions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "NbreTransactions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre transactions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NbreTransactions": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nbre connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nbre relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nbre dealing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nbre contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nbre communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nbre business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nbre industry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "nbre trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "nbre market": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "nbre operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "Transactions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.ventes_brutes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "VentesBrutes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ventes brutes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VentesBrutes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.couts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Couts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "couts": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.rabais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Rabais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rabais": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.ventes_nettes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "VentesNettes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ventes nettes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VentesNettes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.marges": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Marges"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marges": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.titre_dynamique": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "TitreDynamique"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "titre dynamique": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TitreDynamique": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.indiq_dynamique": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "IndiqDynamique"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indiq dynamique": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "IndiqDynamique": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Indicateur": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.mesure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Mesure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mesure": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.titre_dynamique_district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "TitreDynamiqueDistrict"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "titre dynamique district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TitreDynamiqueDistrict": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "titre dynamique region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "titre dynamique constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "titre dynamique locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "titre dynamique area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "titre dynamique quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "titre dynamique borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "titre dynamique ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "titre dynamique neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "titre dynamique canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.TOP5_dynamique_district": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "TOP5DynamiqueDistrict"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TOP5 dynamique district": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TOP5DynamiqueDistrict": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "top5 dynamique region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "top5 dynamique constituency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "top5 dynamique locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "top5 dynamique area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "top5 dynamique quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "top5 dynamique borough": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "top5 dynamique ward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "top5 dynamique neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "top5 dynamique canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimDates": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dim period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.no_mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "NoMois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NoMois": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "number mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.jour_mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "JourMois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jour mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JourMois": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.annee_mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "AnneeMois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annee mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnneeMois": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.no_jour_semaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "NoJourSemaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no jour semaine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NoJourSemaine": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "number jour semaine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.jour_semaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "JourSemaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jour semaine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JourSemaine": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.no_semaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "NoSemaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no semaine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NoSemaine": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "number semaine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.semaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimDates",
+			          "ConceptualProperty": "Semaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semaine": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicateurs_Qualités"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicateurs qualité": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indicateur qualité": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Indicateurs_Qualités": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité.indicateur": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicateurs_Qualités",
+			          "ConceptualProperty": "indicateurs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indicateur": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité.index": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Indicateurs_Qualités",
+			          "ConceptualProperty": "Index"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "index": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "manifestation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "fait_vente_has_dim_date": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "dim_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_dim_dates"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "fait_vente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_fait_ventes"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_dim_magasin": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_dim_magasins"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "fait_vente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_fait_ventes"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_dim_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "dim_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_dim_produits"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "fait_vente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_fait_ventes"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_dim_dept": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_dept": {
+			          "Target": {
+			            "Entity": "dim_dept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_dept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_dim_depts"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_dept"
+			            },
+			            "Object": {
+			              "Role": "dim_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_depts_have_dim_produits"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_dim_fournisseur": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_fournisseur"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_dim_fournisseurs"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Object": {
+			              "Role": "dim_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_have_dim_produits"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_dim_banniere": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_banniere": {
+			          "Target": {
+			            "Entity": "dim_banniere"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_banniere"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_dim_bannieres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_banniere"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_bannieres_have_dim_magasins"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_dim_categorie": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_categorie": {
+			          "Target": {
+			            "Entity": "dim_categorie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_categorie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_dim_categories"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_categorie"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_categories_have_dim_magasins"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_has_index": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "indicateurs_qualité.index": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité.index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Object": {
+			              "Role": "indicateurs_qualité.index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_have_indices"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_has_indicateur": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "indicateurs_qualité.indicateur": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité.indicateur"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Object": {
+			              "Role": "indicateurs_qualité.indicateur"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_have_indicateurs"
+			        }
+			      ]
+			    },
+			    "dim_date_has_semaine": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.semaine": {
+			          "Target": {
+			            "Entity": "dim_date.semaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.semaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_semaines"
+			        }
+			      ]
+			    },
+			    "dim_date_has_no_semaine": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.no_semaine": {
+			          "Target": {
+			            "Entity": "dim_date.no_semaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.no_semaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_no_semaines"
+			        }
+			      ]
+			    },
+			    "dim_date_has_jour_semaine": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.jour_semaine": {
+			          "Target": {
+			            "Entity": "dim_date.jour_semaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.jour_semaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_jour_semaines"
+			        }
+			      ]
+			    },
+			    "dim_date_has_no_jour_semaine": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.no_jour_semaine": {
+			          "Target": {
+			            "Entity": "dim_date.no_jour_semaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.no_jour_semaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_no_jour_semaines"
+			        }
+			      ]
+			    },
+			    "dim_date_has_annee_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.annee_mois": {
+			          "Target": {
+			            "Entity": "dim_date.annee_mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.annee_mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_annee_moises"
+			        }
+			      ]
+			    },
+			    "dim_date_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.trimestre": {
+			          "Target": {
+			            "Entity": "dim_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_date_has_jour_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.jour_mois": {
+			          "Target": {
+			            "Entity": "dim_date.jour_mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.jour_mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_jour_moises"
+			        }
+			      ]
+			    },
+			    "dim_date_has_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.mois": {
+			          "Target": {
+			            "Entity": "dim_date.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_moises"
+			        }
+			      ]
+			    },
+			    "dim_date_has_no_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.no_mois": {
+			          "Target": {
+			            "Entity": "dim_date.no_mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.no_mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_no_moises"
+			        }
+			      ]
+			    },
+			    "dim_date_has_année": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.année": {
+			          "Target": {
+			            "Entity": "dim_date.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_années"
+			        }
+			      ]
+			    },
+			    "dim_date_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDates"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.date": {
+			          "Target": {
+			            "Entity": "dim_date.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_dates"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_has_tab_mesure_TOP5_dynamique_district": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "tab_mesure.TOP5_dynamique_district": {
+			          "Target": {
+			            "Entity": "tab_mesure.TOP5_dynamique_district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.TOP5_dynamique_district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_have_TOP5_dynamique_district"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_has_tab_mesure_titre_dynamique_district": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "tab_mesure.titre_dynamique_district": {
+			          "Target": {
+			            "Entity": "tab_mesure.titre_dynamique_district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.titre_dynamique_district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_have_titre_dynamique_district"
+			        }
+			      ]
+			    },
+			    "tab_mesure_has_mesure": {
+			      "Binding": {
+			        "ConceptualEntity": "Tab_mesures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tab_mesure": {
+			          "Target": {
+			            "Entity": "tab_mesure"
+			          }
+			        },
+			        "tab_mesure.mesure": {
+			          "Target": {
+			            "Entity": "tab_mesure.mesure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tab_mesure"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.mesure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tab_mesures_have_mesure"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_has_tab_mesure_indiq_dynamique": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "tab_mesure.indiq_dynamique": {
+			          "Target": {
+			            "Entity": "tab_mesure.indiq_dynamique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.indiq_dynamique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_have_indiq_dynamique"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_indiq_dynamique": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.indiq_dynamique": {
+			          "Target": {
+			            "Entity": "tab_mesure.indiq_dynamique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.indiq_dynamique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_indiq_dynamique"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_indiq_dynamique": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.indiq_dynamique": {
+			          "Target": {
+			            "Entity": "tab_mesure.indiq_dynamique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.indiq_dynamique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_indiq_dynamique"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_tab_mesure_indiq_dynamique": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "tab_mesure.indiq_dynamique": {
+			          "Target": {
+			            "Entity": "tab_mesure.indiq_dynamique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.indiq_dynamique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_indiq_dynamique"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_has_tab_mesure_titre_dynamique": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "tab_mesure.titre_dynamique": {
+			          "Target": {
+			            "Entity": "tab_mesure.titre_dynamique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.titre_dynamique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_have_titre_dynamique"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_marges": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.marges": {
+			          "Target": {
+			            "Entity": "tab_mesure.marges"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.marges"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_marges"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_marges": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.marges": {
+			          "Target": {
+			            "Entity": "tab_mesure.marges"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.marges"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_marges"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_ventes_nettes": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.ventes_nettes": {
+			          "Target": {
+			            "Entity": "tab_mesure.ventes_nettes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.ventes_nettes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_ventes_nettes"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_ventes_nettes": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.ventes_nettes": {
+			          "Target": {
+			            "Entity": "tab_mesure.ventes_nettes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.ventes_nettes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_ventes_nettes"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_rabais": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.rabais": {
+			          "Target": {
+			            "Entity": "tab_mesure.rabais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.rabais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_rabais"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_rabais": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.rabais": {
+			          "Target": {
+			            "Entity": "tab_mesure.rabais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.rabais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_rabais"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_couts": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.couts": {
+			          "Target": {
+			            "Entity": "tab_mesure.couts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.couts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_couts"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_couts": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.couts": {
+			          "Target": {
+			            "Entity": "tab_mesure.couts"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.couts"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_couts"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_ventes_brutes": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.ventes_brutes": {
+			          "Target": {
+			            "Entity": "tab_mesure.ventes_brutes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.ventes_brutes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_ventes_brutes"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_ventes_brutes": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.ventes_brutes": {
+			          "Target": {
+			            "Entity": "tab_mesure.ventes_brutes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.ventes_brutes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_ventes_brutes"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_nbre_transactions": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.nbre_transactions": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_transactions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_transactions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_nbre_transactions"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_nbre_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.nbre_produit": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_nbre_produit"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_tab_mesure_nbre_magasin": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "tab_mesure.nbre_magasin": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_magasin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_magasin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_nbre_magasin"
+			        }
+			      ]
+			    },
+			    "dim_fournisseur_has_tab_mesure_nbre_fournisseur": {
+			      "Binding": {
+			        "ConceptualEntity": "DimFournisseur"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        },
+			        "tab_mesure.nbre_fournisseur": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_fournisseur"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_fournisseur"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_have_nbre_fournisseur"
+			        }
+			      ]
+			    },
+			    "dim_dept_has_tab_mesure_nbre_dept": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDept"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_dept": {
+			          "Target": {
+			            "Entity": "dim_dept"
+			          }
+			        },
+			        "tab_mesure.nbre_dept": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_dept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_dept"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_dept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_depts_have_nbre_dept"
+			        }
+			      ]
+			    },
+			    "dim_categorie_has_tab_mesure_nbre_categorie": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCategorie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_categorie": {
+			          "Target": {
+			            "Entity": "dim_categorie"
+			          }
+			        },
+			        "tab_mesure.nbre_categorie": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_categorie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_categorie"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_categorie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_categories_have_nbre_categorie"
+			        }
+			      ]
+			    },
+			    "dim_banniere_has_tab_mesure_nbrebaniere": {
+			      "Binding": {
+			        "ConceptualEntity": "DimBanniere"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_banniere": {
+			          "Target": {
+			            "Entity": "dim_banniere"
+			          }
+			        },
+			        "tab_mesure.nbrebaniere": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbrebaniere"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_banniere"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbrebaniere"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_bannieres_have_nbrebaniere"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "fait_vente.date": {
+			          "Target": {
+			            "Entity": "fait_vente.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "fait_vente.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_dates"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_rabais_en_": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "fait_vente.rabais_en_": {
+			          "Target": {
+			            "Entity": "fait_vente.rabais_en_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "fait_vente.rabais_en_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_rabais_en_"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_unités_vendue": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "fait_vente.unités_vendue": {
+			          "Target": {
+			            "Entity": "fait_vente.unités_vendue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "fait_vente.unités_vendue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_unités_vendues"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_numéro_de_facture": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "fait_vente.numéro_de_facture": {
+			          "Target": {
+			            "Entity": "fait_vente.numéro_de_facture"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "fait_vente.numéro_de_facture"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_numéro_de_factures"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_discontinué": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.discontinué": {
+			          "Target": {
+			            "Entity": "dim_produit.discontinué"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.discontinué"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_discontinué"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_délai_de_la_commande": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.délai_de_la_commande": {
+			          "Target": {
+			            "Entity": "dim_produit.délai_de_la_commande"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.délai_de_la_commande"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_délai_de_la_commandes"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_coût_unitaire": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.coût_unitaire": {
+			          "Target": {
+			            "Entity": "dim_produit.coût_unitaire"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.coût_unitaire"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_coût_unitaires"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_prix_unitaire": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.prix_unitaire": {
+			          "Target": {
+			            "Entity": "dim_produit.prix_unitaire"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.prix_unitaire"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_prix_unitaires"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_famille_du_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.famille_du_produit": {
+			          "Target": {
+			            "Entity": "dim_produit.famille_du_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.famille_du_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_famille_du_produits"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_couleur_du_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.couleur_du_produit": {
+			          "Target": {
+			            "Entity": "dim_produit.couleur_du_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.couleur_du_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_couleur_du_produits"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_nom_du_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.nom_du_produit": {
+			          "Target": {
+			            "Entity": "dim_produit.nom_du_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.nom_du_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_nom_du_produits"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_numéro_du_produit": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "dim_produit.numéro_du_produit": {
+			          "Target": {
+			            "Entity": "dim_produit.numéro_du_produit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "dim_produit.numéro_du_produit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_numéro_du_produits"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.longitude": {
+			          "Target": {
+			            "Entity": "dim_magasin.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_longitudes"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.latitude": {
+			          "Target": {
+			            "Entity": "dim_magasin.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_latitudes"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_renouvellement_du_bail": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.renouvellement_du_bail": {
+			          "Target": {
+			            "Entity": "dim_magasin.renouvellement_du_bail"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.renouvellement_du_bail"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_renouvellement_du_bails"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_pieds_carré": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.pieds_carré": {
+			          "Target": {
+			            "Entity": "dim_magasin.pieds_carré"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.pieds_carré"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_pieds_carré"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_date_de_fermeture": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.date_de_fermeture": {
+			          "Target": {
+			            "Entity": "dim_magasin.date_de_fermeture"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.date_de_fermeture"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_date_de_fermetures"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_date_douverture": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.date_douverture": {
+			          "Target": {
+			            "Entity": "dim_magasin.date_douverture"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.date_douverture"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_date_douvertures"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.district": {
+			          "Target": {
+			            "Entity": "dim_magasin.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_districts"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_région": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.région": {
+			          "Target": {
+			            "Entity": "dim_magasin.région"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.région"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_régions"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_code_postal": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.code_postal": {
+			          "Target": {
+			            "Entity": "dim_magasin.code_postal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.code_postal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_code_postal"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_ville": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.ville": {
+			          "Target": {
+			            "Entity": "dim_magasin.ville"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.ville"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_ville"
+			        }
+			      ]
+			    },
+			    "dim_magasin_has_numéro_du_magasin": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.numéro_du_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin.numéro_du_magasin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Object": {
+			              "Role": "dim_magasin.numéro_du_magasin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_have_numéro_du_magasins"
+			        }
+			      ]
+			    },
+			    "dim_fournisseur_has_district": {
+			      "Binding": {
+			        "ConceptualEntity": "DimFournisseur"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        },
+			        "dim_fournisseur.district": {
+			          "Target": {
+			            "Entity": "dim_fournisseur.district"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Object": {
+			              "Role": "dim_fournisseur.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_have_districts"
+			        }
+			      ]
+			    },
+			    "dim_fournisseur_has_ville": {
+			      "Binding": {
+			        "ConceptualEntity": "DimFournisseur"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        },
+			        "dim_fournisseur.ville": {
+			          "Target": {
+			            "Entity": "dim_fournisseur.ville"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Object": {
+			              "Role": "dim_fournisseur.ville"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_have_ville"
+			        }
+			      ]
+			    },
+			    "dim_fournisseur_has_nom_du_fournisseur": {
+			      "Binding": {
+			        "ConceptualEntity": "DimFournisseur"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        },
+			        "dim_fournisseur.nom_du_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur.nom_du_fournisseur"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Object": {
+			              "Role": "dim_fournisseur.nom_du_fournisseur"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_have_nom_du_fournisseurs"
+			        }
+			      ]
+			    },
+			    "dim_fournisseur_has_numéro_du_fournisseur": {
+			      "Binding": {
+			        "ConceptualEntity": "DimFournisseur"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        },
+			        "dim_fournisseur.numéro_du_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur.numéro_du_fournisseur"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Object": {
+			              "Role": "dim_fournisseur.numéro_du_fournisseur"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_have_numéro_du_fournisseurs"
+			        }
+			      ]
+			    },
+			    "dim_dept_has_nom_du_département": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDept"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_dept": {
+			          "Target": {
+			            "Entity": "dim_dept"
+			          }
+			        },
+			        "dim_dept.nom_du_département": {
+			          "Target": {
+			            "Entity": "dim_dept.nom_du_département"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_dept"
+			            },
+			            "Object": {
+			              "Role": "dim_dept.nom_du_département"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_depts_have_nom_du_départements"
+			        }
+			      ]
+			    },
+			    "dim_dept_has_numéro_de_département": {
+			      "Binding": {
+			        "ConceptualEntity": "DimDept"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_dept": {
+			          "Target": {
+			            "Entity": "dim_dept"
+			          }
+			        },
+			        "dim_dept.numéro_de_département": {
+			          "Target": {
+			            "Entity": "dim_dept.numéro_de_département"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_dept"
+			            },
+			            "Object": {
+			              "Role": "dim_dept.numéro_de_département"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_depts_have_numéro_de_départements"
+			        }
+			      ]
+			    },
+			    "dim_categorie_has_nom_de_la_catégorie": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCategorie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_categorie": {
+			          "Target": {
+			            "Entity": "dim_categorie"
+			          }
+			        },
+			        "dim_categorie.nom_de_la_catégorie": {
+			          "Target": {
+			            "Entity": "dim_categorie.nom_de_la_catégorie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_categorie"
+			            },
+			            "Object": {
+			              "Role": "dim_categorie.nom_de_la_catégorie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_categories_have_nom_de_la_catégories"
+			        }
+			      ]
+			    },
+			    "dim_categorie_has_numéro_de_la_catégorie": {
+			      "Binding": {
+			        "ConceptualEntity": "DimCategorie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_categorie": {
+			          "Target": {
+			            "Entity": "dim_categorie"
+			          }
+			        },
+			        "dim_categorie.numéro_de_la_catégorie": {
+			          "Target": {
+			            "Entity": "dim_categorie.numéro_de_la_catégorie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_categorie"
+			            },
+			            "Object": {
+			              "Role": "dim_categorie.numéro_de_la_catégorie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_categories_have_numéro_de_la_catégories"
+			        }
+			      ]
+			    },
+			    "dim_banniere_has_nom_de_la_bannière": {
+			      "Binding": {
+			        "ConceptualEntity": "DimBanniere"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_banniere": {
+			          "Target": {
+			            "Entity": "dim_banniere"
+			          }
+			        },
+			        "dim_banniere.nom_de_la_bannière": {
+			          "Target": {
+			            "Entity": "dim_banniere.nom_de_la_bannière"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_banniere"
+			            },
+			            "Object": {
+			              "Role": "dim_banniere.nom_de_la_bannière"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_bannieres_have_nom_de_la_bannières"
+			        }
+			      ]
+			    },
+			    "dim_banniere_has_numéro_de_la_bannière": {
+			      "Binding": {
+			        "ConceptualEntity": "DimBanniere"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_banniere": {
+			          "Target": {
+			            "Entity": "dim_banniere"
+			          }
+			        },
+			        "dim_banniere.numéro_de_la_bannière": {
+			          "Target": {
+			            "Entity": "dim_banniere.numéro_de_la_bannière"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_banniere"
+			            },
+			            "Object": {
+			              "Role": "dim_banniere.numéro_de_la_bannière"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_bannieres_have_numéro_de_la_bannières"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_in_tab_mesure_TOP5_dynamique_district": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "tab_mesure.TOP5_dynamique_district": {
+			          "Target": {
+			            "Entity": "tab_mesure.TOP5_dynamique_district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "tab_mesure.TOP5_dynamique_district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tab_mesure.TOP5_dynamique_district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_are_in_TOP5_dynamique_district"
+			        }
+			      ]
+			    },
+			    "indicateurs_qualité_in_tab_mesure_titre_dynamique_district": {
+			      "Binding": {
+			        "ConceptualEntity": "Indicateurs_Qualités"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "indicateurs_qualité": {
+			          "Target": {
+			            "Entity": "indicateurs_qualité"
+			          }
+			        },
+			        "tab_mesure.titre_dynamique_district": {
+			          "Target": {
+			            "Entity": "tab_mesure.titre_dynamique_district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "tab_mesure.titre_dynamique_district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "indicateurs_qualité"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "tab_mesure.titre_dynamique_district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "indicateurs_qualité_are_in_titre_dynamique_district"
+			        }
+			      ]
+			    },
+			    "dim_magasin_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMagasin"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_magasin": {
+			          "Target": {
+			            "Entity": "dim_magasin"
+			          }
+			        },
+			        "dim_magasin.district": {
+			          "Target": {
+			            "Entity": "dim_magasin.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_magasin.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_magasin"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_magasin.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_magasins_are_in_districts"
+			        }
+			      ]
+			    },
+			    "dim_fournisseur_in_district": {
+			      "Binding": {
+			        "ConceptualEntity": "DimFournisseur"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_fournisseur": {
+			          "Target": {
+			            "Entity": "dim_fournisseur"
+			          }
+			        },
+			        "dim_fournisseur.district": {
+			          "Target": {
+			            "Entity": "dim_fournisseur.district"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dim_fournisseur.district"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_fournisseur"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_fournisseur.district"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_fournisseurs_are_in_districts"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

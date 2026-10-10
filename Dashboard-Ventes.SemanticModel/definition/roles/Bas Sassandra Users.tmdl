@@ -1,0 +1,7 @@
+role 'Bas Sassandra Users'
+	modelPermission: read
+
+	tablePermission DimMagasin = [District] == "Bas-Sassandra"
+
+	annotation PBI_Id = 14ed37ce1a2248598178e90073aaa081
+

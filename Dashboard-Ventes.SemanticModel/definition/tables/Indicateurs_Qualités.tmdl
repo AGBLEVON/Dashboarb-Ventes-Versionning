@@ -1,0 +1,38 @@
+table Indicateurs_Qualités
+	lineageTag: 421b0096-ac26-4e17-975f-a6063da3f2d6
+
+	column indicateurs
+		dataType: string
+		lineageTag: a9654aed-165b-424c-86e9-843fc7865f93
+		summarizeBy: none
+		sourceColumn: indicateurs
+		sortByColumn: Index
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: fb862917-8710-4354-b2dd-d3071e5b0b61
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Indicateurs_Qualités = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45W8svPTSpKVUhJVfBNTE+sysxTitWJVgopSswrTkwuyczPKwYLhKXmlaQWKzgVlQIpZBG/1BKYiG9iUTqUGZSYlJgJYTrnH95dAmTGAgA=", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [indicateurs = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"indicateurs", type text}}),
+				    #"Index ajouté" = Table.AddIndexColumn(#"Type modifié", "Index", 1, 1, Int64.Type),
+				    #"Colonnes permutées" = Table.ReorderColumns(#"Index ajouté",{"Index", "indicateurs"})
+				in
+				    #"Colonnes permutées"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

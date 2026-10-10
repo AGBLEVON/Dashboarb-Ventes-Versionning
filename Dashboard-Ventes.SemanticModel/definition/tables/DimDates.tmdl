@@ -1,0 +1,135 @@
+table DimDates
+	lineageTag: b7120f11-7d01-4aaa-9a63-f1d3cbc14303
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: General Date
+		lineageTag: d438576e-eb35-4a48-8bf7-2606d99d9b36
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Année
+		lineageTag: 44fe6721-9eb7-4c4d-9144-dbe86f80ea9f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Année]
+
+		annotation SummarizationSetBy = Automatic
+
+	column NoMois
+		formatString: 0
+		lineageTag: 817addcf-67cf-468a-a442-324ed221e42b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [NoMois]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mois
+		lineageTag: 757c7af5-daf3-4ed1-b9e9-a1dfb4eab008
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mois]
+		sortByColumn: NoMois
+
+		annotation SummarizationSetBy = Automatic
+
+	column JourMois
+		lineageTag: 7a63f145-f726-4874-a341-211fa8041c72
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [JourMois]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		lineageTag: 51d7316d-0358-4a86-8ab4-7b1164d5d78b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Trimestre]
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnneeMois
+		lineageTag: a76d8c89-4ec5-42d9-8075-a8dee19db0c7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [AnneeMois]
+
+		annotation SummarizationSetBy = Automatic
+
+	column NoJourSemaine
+		formatString: 0
+		lineageTag: 37f99a22-bdd3-4a83-b75d-baf98eafdf70
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [NoJourSemaine]
+
+		annotation SummarizationSetBy = Automatic
+
+	column JourSemaine
+		lineageTag: c935ddce-9676-47ce-81ca-82d55d1b0cae
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [JourSemaine]
+
+		annotation SummarizationSetBy = Automatic
+
+	column NoSemaine
+		formatString: 0
+		lineageTag: a64bb8b5-e34d-498b-b427-f08df3976918
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [NoSemaine]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semaine
+		lineageTag: c69a325d-62ac-4b8b-ae23-3f21ca2a66bf
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Semaine]
+		sortByColumn: NoSemaine
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimDates = calculated
+		mode: import
+		source = ```
+				
+				
+				VAR DateDebut = MIN(FaitVentes[Date])
+				
+				VAR DateFin = MAX(FaitVentes[Date])
+				
+				RETURN 
+				
+				ADDCOLUMNS(CALENDAR(DateDebut, DateFin),
+				
+				"Année", FORMAT([Date], "yyyy"),
+				
+				"NoMois", MONTH([Date]),
+				
+				"Mois", FORMAT([Date],"MMMM"),
+				
+				"JourMois", FORMAT([Date], "dd") & " - " & FORMAT([Date],"MMM"),
+				
+				"Trimestre", FORMAT([Date],"Tri\m Q"),
+				
+				"AnneeMois", FORMAT([Date],"YYYY-MM"),
+				
+				"NoJourSemaine", WEEKDAY([Date],2), //1-Dim..Sam; 2-Lun..Sam
+				
+				"JourSemaine", FORMAT([Date],"ddd"),
+				
+				"NoSemaine", WEEKNUM([Date], 2),
+				
+				"Semaine", "S" & WEEKNUM([Date], 2) )
+				```
+
+	annotation PBI_Id = c66c54e9acbf48b4a2885c5aab995119
+

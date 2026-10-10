@@ -1,0 +1,7 @@
+role 'Top Users 1'
+	modelPermission: read
+
+	tablePermission DimMagasin = [District] == "Abidjan" || [District] == "Lacs"
+
+	annotation PBI_Id = e93c306eb0984e548aaf308c667f642b
+

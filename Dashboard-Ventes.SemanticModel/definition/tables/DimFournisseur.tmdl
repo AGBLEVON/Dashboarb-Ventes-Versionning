@@ -1,0 +1,50 @@
+table DimFournisseur
+	lineageTag: 597cffc4-43ec-4008-b040-8355cf624a1d
+
+	column 'Numéro du fournisseur'
+		dataType: int64
+		formatString: 0
+		lineageTag: c5c35613-d938-481e-a0a2-49ee9bcee657
+		summarizeBy: none
+		sourceColumn: Numéro du fournisseur
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nom du fournisseur'
+		dataType: string
+		lineageTag: 8fb4e128-86aa-4561-800c-dce76afad28b
+		summarizeBy: none
+		sourceColumn: Nom du fournisseur
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ville
+		dataType: string
+		lineageTag: 7360ff6d-ecfd-4973-919c-117c377f4684
+		summarizeBy: none
+		sourceColumn: Ville
+
+		annotation SummarizationSetBy = Automatic
+
+	column District
+		dataType: string
+		lineageTag: 4e2b1945-7ff5-4187-9283-5e86ba194879
+		summarizeBy: none
+		sourceColumn: District
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimFournisseur = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\Démystifier power bi\Nouveau dossier\SourcesDeDonnees-20260211T101233Z-1-001\SourcesDeDonnees\Projet_formation\DimFournisseurs.xlsx"), null, true),
+				    DimFournisseur_Table = Source{[Item="DimFournisseur",Kind="Table"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(DimFournisseur_Table,{{"Numéro du fournisseur", Int64.Type}, {"Nom du fournisseur", type text}, {"Ville", type text}, {"District", type text}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

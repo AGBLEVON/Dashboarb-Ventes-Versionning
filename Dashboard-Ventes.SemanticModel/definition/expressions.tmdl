@@ -1,0 +1,43 @@
+expression Paramètre1 = #"Exemple de fichier" meta [IsParameterQuery=true, BinaryIdentifier=#"Exemple de fichier", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: 795393ef-1568-45da-a041-062f81ea718d
+	queryGroup: 'Transformer le fichier à partir de Ventes\Requêtes d''assistance'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformer l''exemple de fichier' =
+		let
+		    Source = Excel.Workbook(Paramètre1, null, true),
+		    Table1_Table = Source{[Item="Table1",Kind="Table"]}[Data]
+		in
+		    Table1_Table
+	lineageTag: 1c8ab761-5b84-45a6-8e8a-97c6f91d0797
+	queryGroup: 'Transformer le fichier à partir de Ventes'
+
+	annotation PBI_ResultType = Table
+
+expression 'Exemple de fichier' =
+		let
+		    Source = Folder.Files("C:\Formation\Démystifier power bi\Nouveau dossier\SourcesDeDonnees-20260211T101233Z-1-001\SourcesDeDonnees\Projet_formation\Ventes"),
+		    Navigation1 = Source{0}[Content]
+		in
+		    Navigation1
+	lineageTag: 836ac5df-c6fa-408a-9355-22a0a5deed98
+	queryGroup: 'Transformer le fichier à partir de Ventes\Requêtes d''assistance'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformer le fichier' =
+		let
+		    Source = (Paramètre1 as binary) => let
+		    Source = Excel.Workbook(Paramètre1, null, true),
+		    Table1_Table = Source{[Item="Table1",Kind="Table"]}[Data]
+		in
+		    Table1_Table
+		in
+		    Source
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformer l\u0027exemple de fichier""}" ]
+	lineageTag: d5d23af3-7803-4c37-84f6-eb190077a07d
+	queryGroup: 'Transformer le fichier à partir de Ventes\Requêtes d''assistance'
+
+	annotation PBI_ResultType = Function
+

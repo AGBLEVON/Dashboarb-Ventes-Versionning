@@ -1,0 +1,34 @@
+table DimDept
+	lineageTag: 0ea9a17a-cf6e-4df0-a64e-8005035aeeb6
+
+	column 'Numéro de département'
+		dataType: int64
+		formatString: 0
+		lineageTag: 415099e5-f844-48d9-8558-11096c9cd2cf
+		summarizeBy: none
+		sourceColumn: Numéro de département
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nom du département'
+		dataType: string
+		lineageTag: 96c27a47-cab4-4e8d-8dbe-616f23f96856
+		summarizeBy: none
+		sourceColumn: Nom du département
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimDept = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\Démystifier power bi\Nouveau dossier\SourcesDeDonnees-20260211T101233Z-1-001\SourcesDeDonnees\Projet_formation\DimDept.xlsx"), null, true),
+				    Dept_Table = Source{[Item="Dept",Kind="Table"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(Dept_Table,{{"Numéro de département", Int64.Type}, {"Nom du département", type text}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

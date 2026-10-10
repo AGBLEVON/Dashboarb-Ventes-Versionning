@@ -1,0 +1,7 @@
+role 'Lacs Uers'
+	modelPermission: read
+
+	tablePermission DimMagasin = [District] == "Lacs"
+
+	annotation PBI_Id = a7fd8a7e0413474487d399822d0b2cf6
+

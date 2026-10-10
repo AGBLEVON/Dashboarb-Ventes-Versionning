@@ -1,0 +1,28 @@
+relationship 103a00c4-9c57-7418-611c-282e67ff12d0
+	fromColumn: FaitVentes.'Numéro du produit'
+	toColumn: DimProduit.'Numéro du produit'
+
+relationship ad71c381-2d61-7ba0-e2dd-42ec0a42a9d2
+	fromColumn: DimProduit.'Numéro du fournisseur'
+	toColumn: DimFournisseur.'Numéro du fournisseur'
+
+relationship 55292eb6-eba9-d0aa-9638-fffbaabd4376
+	fromColumn: FaitVentes.'Numéro du magasin'
+	toColumn: DimMagasin.'Numéro du magasin'
+
+relationship 60768519-23fb-8e04-c57f-cc68b09421cc
+	fromColumn: DimMagasin.'Numéro de la catégorie'
+	toColumn: DimCategorie.'Numéro de la catégorie'
+
+relationship 0da752e3-4b4e-4f61-1d21-f6412497f042
+	fromColumn: DimMagasin.'Numéro de la bannière'
+	toColumn: DimBanniere.'Numéro de la bannière'
+
+relationship 2e3ef535-b2eb-2dc3-5e1b-542628952d37
+	fromColumn: DimProduit.'Numéro de département'
+	toColumn: DimDept.'Numéro de département'
+
+relationship 5a8f3311-0554-fd37-f34d-fe0deb77b21f
+	fromColumn: FaitVentes.Date
+	toColumn: DimDates.Date
+

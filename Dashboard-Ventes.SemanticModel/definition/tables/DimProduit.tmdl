@@ -1,0 +1,105 @@
+table DimProduit
+	lineageTag: 0813377d-b834-44e2-8248-418182a99dd4
+
+	column 'Numéro du produit'
+		dataType: int64
+		formatString: 0
+		lineageTag: d140b060-09f0-4b5d-b0dc-38a54510e2db
+		summarizeBy: none
+		sourceColumn: Numéro du produit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nom du produit'
+		dataType: string
+		lineageTag: 31cffc3b-fb15-4d71-b3fc-f0f54e6a53b7
+		summarizeBy: none
+		sourceColumn: Nom du produit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Couleur du produit'
+		dataType: string
+		lineageTag: f6a3010f-db77-4caf-ba89-41f8f2307d08
+		summarizeBy: none
+		sourceColumn: Couleur du produit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Famille du produit'
+		dataType: string
+		lineageTag: 9336af0b-0815-4f15-ba09-76d03aa9f95f
+		summarizeBy: none
+		sourceColumn: Famille du produit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Numéro de département'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7a8a6427-d29c-47b5-b7e6-bc372f9423d3
+		summarizeBy: none
+		sourceColumn: Numéro de département
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Numéro du fournisseur'
+		dataType: int64
+		formatString: 0
+		lineageTag: f1ca5b7d-bef2-402d-b7d6-3598baf322af
+		summarizeBy: none
+		sourceColumn: Numéro du fournisseur
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Prix unitaire'
+		dataType: int64
+		formatString: 0
+		lineageTag: 30c97dc4-7f50-47ed-a8aa-a2a6e74183aa
+		summarizeBy: sum
+		sourceColumn: Prix unitaire
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Coût unitaire'
+		dataType: double
+		lineageTag: 237c5989-c87c-4476-b849-01cbbc04cf59
+		summarizeBy: sum
+		sourceColumn: Coût unitaire
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Délai de la commande'
+		dataType: int64
+		formatString: 0
+		lineageTag: 307992d8-5291-49b0-b49d-6f241d2db671
+		summarizeBy: sum
+		sourceColumn: Délai de la commande
+
+		annotation SummarizationSetBy = Automatic
+
+	column Discontinué
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 3e7edf1b-da8b-4438-9c96-9c76e861a435
+		summarizeBy: none
+		sourceColumn: Discontinué
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimProduit = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\Démystifier power bi\Nouveau dossier\SourcesDeDonnees-20260211T101233Z-1-001\SourcesDeDonnees\Projet_formation\DimProduits.xlsx"), null, true),
+				    DimProduit_Table = Source{[Item="DimProduit",Kind="Table"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(DimProduit_Table,{{"Numéro du produit", Int64.Type}, {"Nom du produit", type text}, {"Couleur du produit", type text}, {"Famille du produit", type text}, {"Numéro de département", Int64.Type}, {"Numéro du fournisseur", Int64.Type}, {"Prix unitaire", Int64.Type}, {"Coût unitaire", type number}, {"Délai de la commande", Int64.Type}, {"Discontinué", type logical}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

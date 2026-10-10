@@ -1,0 +1,41 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	valueFilterBehavior: coalesced
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup 'Transformer le fichier à partir de Ventes'
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup 'Transformer le fichier à partir de Ventes\Requêtes d''assistance'
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DimBanniere","DimCategorie","DimDept","DimFournisseur","DimMagasin","DimProduit","FaitVentes","Paramètre1","Transformer l'exemple de fichier","Exemple de fichier","Transformer le fichier","Tab_mesures","Indicateurs_Qualités"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DimBanniere
+ref table DimCategorie
+ref table DimDept
+ref table DimFournisseur
+ref table DimMagasin
+ref table DimProduit
+ref table FaitVentes
+ref table Tab_mesures
+ref table DimDates
+ref table Indicateurs_Qualités
+
+ref role 'Abidjan Users'
+ref role 'Bas Sassandra Users'
+ref role 'Lacs Uers'
+ref role 'Top Users 1'
+
+ref cultureInfo fr-FR
+

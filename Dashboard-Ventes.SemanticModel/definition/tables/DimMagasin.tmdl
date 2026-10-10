@@ -1,0 +1,131 @@
+table DimMagasin
+	lineageTag: 33385f31-c048-4935-9c9a-1861035917e1
+
+	column 'Numéro du magasin'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f8bca69-d1fb-4616-9c64-3567c456921d
+		summarizeBy: none
+		sourceColumn: Numéro du magasin
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Numéro de la bannière'
+		dataType: int64
+		formatString: 0
+		lineageTag: e5dc3b04-bbb2-4deb-a8af-0195b5199614
+		summarizeBy: none
+		sourceColumn: Numéro de la bannière
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Numéro de la catégorie'
+		dataType: int64
+		formatString: 0
+		lineageTag: b8222728-fcac-43d8-8bbd-71a17c765c64
+		summarizeBy: none
+		sourceColumn: Numéro de la catégorie
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ville
+		dataType: string
+		lineageTag: fca26d94-175d-4e52-9881-c9432f5afb38
+		summarizeBy: none
+		sourceColumn: Ville
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code postal'
+		dataType: string
+		lineageTag: f14064b4-2462-458f-9dc1-de99f2d1a0fd
+		summarizeBy: none
+		sourceColumn: Code postal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Région
+		dataType: string
+		lineageTag: 60938f4d-ea2e-46ba-80fe-26a79b313554
+		summarizeBy: none
+		sourceColumn: Région
+
+		annotation SummarizationSetBy = Automatic
+
+	column District
+		dataType: string
+		lineageTag: 9396bc5f-ac45-4712-9159-5752e55376d8
+		summarizeBy: none
+		sourceColumn: District
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date d''ouverture'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 09e33906-6210-43f4-8986-dce025e29a7d
+		summarizeBy: none
+		sourceColumn: Date d'ouverture
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Date de fermeture'
+		dataType: string
+		lineageTag: 1832b882-7bdf-4f45-9e48-bcdb51011c88
+		summarizeBy: none
+		sourceColumn: Date de fermeture
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Pieds carrés'
+		dataType: int64
+		formatString: 0
+		lineageTag: e14ed798-7488-4230-8b65-38888b028426
+		summarizeBy: sum
+		sourceColumn: Pieds carrés
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Renouvellement du bail'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e3bbe6ca-ba15-486a-9d1f-b93cb73f75c0
+		summarizeBy: none
+		sourceColumn: Renouvellement du bail
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Latitude
+		dataType: string
+		lineageTag: 24e0305f-9637-4c91-952f-22cb6a6105ac
+		summarizeBy: none
+		sourceColumn: Latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column Longitude
+		dataType: string
+		lineageTag: 4523d875-0193-4d0c-a125-836098dec9e4
+		summarizeBy: none
+		sourceColumn: Longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimMagasin = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\Démystifier power bi\Nouveau dossier\SourcesDeDonnees-20260211T101233Z-1-001\SourcesDeDonnees\Projet_formation\DimMagasin.xlsx"), null, true),
+				    DimMagasin_Table = Source{[Item="DimMagasin",Kind="Table"]}[Data],
+				    #"Type modifié" = Table.TransformColumnTypes(DimMagasin_Table,{{"Numéro du magasin", Int64.Type}, {"Numéro de la bannière", Int64.Type}, {"Numéro de la catégorie", Int64.Type}, {"Ville", type text}, {"Code postal", type text}, {"Région", type text}, {"District", type text}, {"Date d'ouverture", type date}, {"Date de fermeture", type any}, {"Pieds carrés", Int64.Type}, {"Renouvellement du bail", type date}, {"Latitude", type text}, {"Longitude", type text}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
