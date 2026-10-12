@@ -19,7 +19,7 @@ annotation __PBI_TimeIntelligenceEnabled = 0
 
 annotation PBI_QueryOrder = ["DimBanniere","DimCategorie","DimDept","DimFournisseur","DimMagasin","DimProduit","FaitVentes","Paramètre1","Transformer l'exemple de fichier","Exemple de fichier","Transformer le fichier","Tab_mesures","Indicateurs_Qualités"]
 
-annotation PBI_ProTooling = ["DevMode"]
+annotation PBI_ProTooling = ["DevMode","DaxQueryView_Desktop"]
 
 ref table DimBanniere
 ref table DimCategorie

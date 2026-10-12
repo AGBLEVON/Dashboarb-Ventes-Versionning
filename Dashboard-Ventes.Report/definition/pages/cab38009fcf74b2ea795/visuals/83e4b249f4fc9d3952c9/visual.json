@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "83e4b249f4fc9d3952c9",
   "position": {
-    "x": 1598.8837892417844,
-    "y": 12.689553882871305,
+    "x": 1873.0378525622839,
+    "y": 15.036599064149311,
     "z": 5000,
-    "height": 87.595561035758323,
-    "width": 253,
+    "height": 86.2970319505136,
+    "width": 239.27813404460588,
     "tabOrder": 2000
   },
   "visual": {
@@ -23,11 +23,11 @@
                       "Entity": "DimDates"
                     }
                   },
-                  "Property": "Année"
+                  "Property": "Mois"
                 }
               },
-              "queryRef": "DimDates.Année",
-              "nativeQueryRef": "Année",
+              "queryRef": "DimDates.Mois",
+              "nativeQueryRef": "Mois",
               "active": true
             }
           ]
@@ -135,6 +135,47 @@
                   "Value": "1D"
                 }
               }
+            },
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "d",
+                    "Entity": "DimDates",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "In": {
+                        "Expressions": [
+                          {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "d"
+                                }
+                              },
+                              "Property": "Mois"
+                            }
+                          }
+                        ],
+                        "Values": [
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'décembre'"
+                              }
+                            }
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
             }
           }
         }
@@ -199,7 +240,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Année'"
+                  "Value": "'Mois'"
                 }
               }
             },

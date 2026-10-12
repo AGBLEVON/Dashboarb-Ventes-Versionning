@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "21c613b7b129c3601971",
   "position": {
-    "x": 1013.0493849825591,
-    "y": 12.689553882871305,
+    "x": 1286.3084026850468,
+    "y": 14.273706070779198,
     "z": 7000,
     "height": 90.941802827244345,
-    "width": 253,
+    "width": 239,
     "tabOrder": 6000
   },
   "visual": {
@@ -29,11 +29,62 @@
               "queryRef": "DimMagasin.District",
               "nativeQueryRef": "District",
               "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimMagasin"
+                    }
+                  },
+                  "Property": "Ville"
+                }
+              },
+              "queryRef": "DimMagasin.Ville",
+              "nativeQueryRef": "Ville",
+              "active": false
             }
           ]
         }
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "DimMagasin.District"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimMagasin"
+                    }
+                  },
+                  "Property": "District"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "DimMagasin.Ville"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
     "objects": {
       "data": [
         {

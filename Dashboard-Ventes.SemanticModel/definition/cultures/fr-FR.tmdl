@@ -1582,6 +1582,16 @@ cultureInfo fr-FR
 			          "couts": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "Coûts": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1692,22 +1702,6 @@ cultureInfo fr-FR
 			              "Agent": "PowerBI.VisualColumnRename"
 			            },
 			            "Weight": 0.9
-			          }
-			        }
-			      ]
-			    },
-			    "tab_mesure.mesure": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "Tab_mesures",
-			          "ConceptualProperty": "Mesure"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "mesure": {
-			            "State": "Generated"
 			          }
 			        }
 			      ]

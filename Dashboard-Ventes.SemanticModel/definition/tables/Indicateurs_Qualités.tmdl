@@ -28,9 +28,10 @@ table Indicateurs_Qualités
 				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45W8svPTSpKVUhJVfBNTE+sysxTitWJVgopSswrTkwuyczPKwYLhKXmlaQWKzgVlQIpZBG/1BKYiG9iUTqUGZSYlJgJYTrnH95dAmTGAgA=", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [indicateurs = _t]),
 				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"indicateurs", type text}}),
 				    #"Index ajouté" = Table.AddIndexColumn(#"Type modifié", "Index", 1, 1, Int64.Type),
-				    #"Colonnes permutées" = Table.ReorderColumns(#"Index ajouté",{"Index", "indicateurs"})
+				    #"Colonnes permutées" = Table.ReorderColumns(#"Index ajouté",{"Index", "indicateurs"}),
+				    #"Premières lignes supprimées" = Table.Skip(#"Colonnes permutées",1)
 				in
-				    #"Colonnes permutées"
+				    #"Premières lignes supprimées"
 
 	annotation PBI_ResultType = Table
 

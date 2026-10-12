@@ -33,29 +33,36 @@ table Tab_mesures
 
 	measure NbreTransactions = COUNTROWS(FaitVentes)
 		formatString: #,0
+		displayFolder: Indicateur
 		lineageTag: 350bed4c-0cd6-404d-a4df-66d4aac5b90e
 
 	measure VentesBrutes = SUMX(FaitVentes,FaitVentes[Unités vendues]* RELATED(DimProduit[Prix unitaire]))
 		formatString: #,0
+		displayFolder: Indicateur
 		lineageTag: 642b4a37-69b6-4f56-a548-d75d0b3e23e4
 
 	measure Couts = SUMX(FaitVentes, FaitVentes[Unités vendues]* RELATED(DimProduit[Coût unitaire]))
 		formatString: #,0.00
+		displayFolder: Indicateur
 		lineageTag: 90f07ce7-ab6d-4580-bdd6-6be14614580e
 
 	measure Rabais = SUMX(FaitVentes, FaitVentes[Rabais en %]* [VentesBrutes])
 		formatString: #,0.00
+		displayFolder: Indicateur
 		lineageTag: 57b7931f-f1eb-4001-969b-ced2de3b040d
 
 	measure VentesNettes = [VentesBrutes] - [Rabais]
 		formatString: #,0.00
+		displayFolder: Indicateur
 		lineageTag: e40ebc62-44cb-4924-af72-93770f4f6d3f
 
 	measure Marges = [VentesNettes] - [Couts]
 		formatString: #,0.00
+		displayFolder: Indicateur
 		lineageTag: a759a942-e798-4994-b2a4-85568cab6553
 
 	measure TitreDynamique = SELECTEDVALUE('Indicateurs_Qualités'[indicateurs])
+		displayFolder: Indicateur dynamique
 		lineageTag: e9e1e15a-fbe3-43c3-8fb4-d76225cbf9ee
 
 	measure IndiqDynamique = ```
@@ -73,12 +80,8 @@ table Tab_mesures
 			BLANK())
 			```
 		formatString: #,0
+		displayFolder: Indicateur dynamique
 		lineageTag: 49080572-44bd-456f-85d2-0ae8c34f43ef
-
-	measure Mesure
-		lineageTag: f37954c4-9896-424a-b0a3-a0fd46c1db74
-
-		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
 
 	measure TitreDynamiqueDistrict = ```
 			
@@ -96,6 +99,7 @@ table Tab_mesures
 			 )
 			
 			```
+		displayFolder: Indicateur dynamique
 		lineageTag: 92f5c932-68fa-4536-a707-362c2a787f48
 
 	measure TOP5DynamiqueDistrict = ```
@@ -114,7 +118,263 @@ table Tab_mesures
 			 )
 			
 			```
+		displayFolder: Indicateur dynamique
 		lineageTag: ab1e7f61-8b72-4a77-81bd-6daf4f55a41f
+
+	measure 'Variation en % de NbreTransactions d''un mois à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([NbreTransactions], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([NbreTransactions] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation mensuel
+		lineageTag: 853f541f-a47f-4ec4-adc0-096b7e714cc0
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de Couts d''un mois à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([Couts], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc = DIVIDE([Couts] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation mensuel
+		lineageTag: dc254190-4ec1-4dc6-8546-60ed0a434e34
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de VentesNettes d''un mois à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([VentesNettes], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([VentesNettes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation mensuel
+		lineageTag: b8e77abd-42f6-400d-b9b1-fb88926489b5
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de VentesBrutes d''un mois à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([VentesBrutes], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([VentesBrutes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation mensuel
+		lineageTag: dd29f6d6-888b-4227-afb6-95ecfd13a775
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de Marges d''un mois à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([Marges], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([Marges] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation mensuel
+		lineageTag: 658d1357-54ee-489d-af91-dd97ca16a480
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de NbreTransactions d''un an à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([NbreTransactions], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([NbreTransactions] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation annuel
+		lineageTag: e0e460f6-ed9b-447f-a55a-50337700bc3e
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de Couts d''un an à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([Couts], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([Couts] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0, UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation annuel
+		lineageTag: 81b8856a-1a7e-490d-9018-56d53fcd4795
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de VentesNettes d''un an à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([VentesNettes], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([VentesNettes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation annuel
+		lineageTag: c9a4cd56-3920-421d-b0bb-f5beec7a0eff
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de VentesBrutes d''un an à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([VentesBrutes], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([VentesBrutes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation annuel
+		lineageTag: 0eaee135-f200-4536-aa49-e9feb9c55005
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Variation en % de Marges d''un an à l''autre' =
+			
+			VAR __PREV_MONTH = CALCULATE([Marges], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([Marges] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,UNICHAR(129157)&" "& FORMAT(_Perc,"0.0%"),UNICHAR(129158)&" "&FORMAT(_Perc*-1, "0.00%"))
+		displayFolder: Variation annuel
+		lineageTag: 54445962-c795-4c8f-a98b-25ef6150efbe
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+	measure CVMC =
+			VAR __PREV_MONTH = CALCULATE([Couts], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([Couts] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations mensuels
+		lineageTag: e6da3dac-7106-49ee-8d80-555e82bb0fb6
+
+	measure CVAC =
+			VAR __PREV_MONTH = CALCULATE([Couts], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([Couts] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations annuels
+		lineageTag: 8184f20e-1ada-43ad-a786-6d4f131b6a93
+
+	measure CVMM =
+			VAR __PREV_MONTH = CALCULATE([Marges], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([Marges] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations mensuels
+		lineageTag: 1ee8edc7-101e-4481-a7d0-1289e1c443f0
+
+	measure CVAM =
+			VAR __PREV_MONTH = CALCULATE([Marges], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([Marges] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations annuels
+		lineageTag: 7c6aa7cb-6209-4385-b468-4225f7d72535
+
+	measure CVMVB =
+			VAR __PREV_MONTH = CALCULATE([VentesBrutes], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([VentesBrutes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations mensuels
+		lineageTag: 716da609-0c3c-4c60-8847-7bca5b45a522
+
+	measure CVAVB =
+			VAR __PREV_MONTH = CALCULATE([VentesBrutes], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([VentesBrutes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations annuels
+		lineageTag: adffaf03-57aa-4e70-aa11-d98e8bd3a8a0
+
+	measure CVMVN =
+			VAR __PREV_MONTH = CALCULATE([VentesNettes], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([VentesNettes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations mensuels
+		lineageTag: b692b970-a366-4845-8f88-85bb6464ad18
+
+	measure CVAVN =
+			VAR __PREV_MONTH = CALCULATE([VentesNettes], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([VentesNettes] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations annuels
+		lineageTag: a1ccdf9a-0cdb-4477-b989-4a35afe8e717
+
+	measure CVAT =
+			VAR __PREV_MONTH = CALCULATE([NbreTransactions], DATEADD('DimDates'[Date], -12, MONTH))
+			VAR _Perc= DIVIDE([NbreTransactions] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations annuels
+		lineageTag: 35b757d2-d092-41f3-8577-1e8bc449bfd6
+
+	measure CVMT =
+			VAR __PREV_MONTH = CALCULATE([NbreTransactions], DATEADD('DimDates'[Date], -1, MONTH))
+			VAR _Perc= DIVIDE([NbreTransactions] - __PREV_MONTH, __PREV_MONTH)
+			RETURN
+				IF(_Perc>=0,  "Green","Red")
+		displayFolder: Couleurs des variations mensuels
+		lineageTag: 982900ca-d5a2-4693-aab3-608e5fe79137
+
+	measure 'Nbre de livraison' = COUNTROWS(DimProduit)
+		formatString: 0
+		displayFolder: Indicateur
+		lineageTag: 669497be-cd52-4793-a846-d98ef404f01c
 
 	partition Tab_mesures = m
 		mode: import

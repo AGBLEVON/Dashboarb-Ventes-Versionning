@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "d8ca7d09e0b43086705d",
   "position": {
-    "x": 12.5,
-    "y": 735,
+    "x": 11.767777084160945,
+    "y": 759.02162192838091,
     "z": 5000,
-    "height": 322.5,
-    "width": 1275,
+    "height": 298.11701946541064,
+    "width": 1274.842517450769,
     "tabOrder": 5000
   },
   "visual": {
@@ -15,21 +15,6 @@
       "queryState": {
         "Category": {
           "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "DimDates"
-                    }
-                  },
-                  "Property": "Date"
-                }
-              },
-              "queryRef": "DimDates.Date",
-              "nativeQueryRef": "Date",
-              "active": false
-            },
             {
               "field": {
                 "Column": {
@@ -58,21 +43,6 @@
               },
               "queryRef": "DimDates.Mois",
               "nativeQueryRef": "Mois",
-              "active": false
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "DimDates"
-                    }
-                  },
-                  "Property": "NoMois"
-                }
-              },
-              "queryRef": "DimDates.NoMois",
-              "nativeQueryRef": "NoMois",
               "active": true
             },
             {

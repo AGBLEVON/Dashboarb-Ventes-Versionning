@@ -4,9 +4,9 @@
   "displayName": "Accueil",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920,
+  "width": 2150,
   "pageBinding": {
-    "name": "f2323d77fc7a20e1ddf2",
+    "name": "757212aea762fb7ca2a4",
     "type": "Default",
     "parameters": []
   },
@@ -42,6 +42,21 @@
     {
       "source": "55a7734a0d7a14f18c00",
       "target": "d2bca7a2fe2908c89528",
+      "type": "NoFilter"
+    },
+    {
+      "source": "83e4b249f4fc9d3952c9",
+      "target": "eca7e9396b5017f3f363",
+      "type": "NoFilter"
+    },
+    {
+      "source": "55a7734a0d7a14f18c00",
+      "target": "e65c07219d53772a95a0",
+      "type": "NoFilter"
+    },
+    {
+      "source": "55a7734a0d7a14f18c00",
+      "target": "eca7e9396b5017f3f363",
       "type": "NoFilter"
     }
   ]
