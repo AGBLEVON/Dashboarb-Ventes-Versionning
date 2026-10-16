@@ -1377,16 +1377,6 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
-			        },
-			        {
-			          "Magasin": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
@@ -2403,6 +2393,342 @@ cultureInfo fr-FR
 			          }
 			        }
 			      ]
+			    },
+			    "tab_mesure.variation_en__de_NbreTransactions_dun_mois_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de NbreTransactions d'un mois à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de NbreTransactions d'un mois à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_couts_dun_mois_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de Couts d'un mois à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de couts d'un mois à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de VentesNettes d'un mois à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de VentesNettes d'un mois à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de VentesBrutes d'un mois à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de VentesBrutes d'un mois à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_marges_dun_mois_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de Marges d'un mois à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de marges d'un mois à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_NbreTransactions_dun_an_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de NbreTransactions d'un an à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de NbreTransactions d'un an à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_couts_dun_an_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de Couts d'un an à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de couts d'un an à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de VentesNettes d'un an à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de VentesNettes d'un an à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de VentesBrutes d'un an à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de VentesBrutes d'un an à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.variation_en__de_marges_dun_an_à_lautre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Variation en % de Marges d'un an à l'autre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variation en % de marges d'un an à l'autre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvmc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVMC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvmc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVAC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvac": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvmm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVMM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvmm": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvam": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVAM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvam": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvmvb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVMVB"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvmvb": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvavb": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVAVB"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvavb": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvmvn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVMVN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvmvn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvavn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVAVN"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvavn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVAT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvat": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.cvmt": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "CVMT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cvmt": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tab_mesure.nbre_de_livraison": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tab_mesures",
+			          "ConceptualProperty": "Nbre de livraison"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nbre de livraison": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -2725,6 +3051,1227 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_categories_have_dim_magasins"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_nbre_de_livraison": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.nbre_de_livraison": {
+			          "Target": {
+			            "Entity": "tab_mesure.nbre_de_livraison"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.nbre_de_livraison"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_nbre_de_livraison"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvmt": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvmt": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmt"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmt"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvmt"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvat": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvat": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvat"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvavn": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvavn": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvavn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvavn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvavn"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvavn": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvavn": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvavn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvavn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvavn"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvmvn": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvmvn": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmvn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmvn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvmvn"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvmvn": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvmvn": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmvn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmvn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvmvn"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvavb": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvavb": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvavb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvavb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvavb"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvavb": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvavb": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvavb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvavb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvavb"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvmvb": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvmvb": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmvb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmvb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvmvb"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvmvb": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvmvb": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmvb"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmvb"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvmvb"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvam": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvam": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvam"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvam"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvam"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvam": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvam": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvam"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvam"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvam"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvmm": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvmm": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvmm"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvmm": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvmm": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvmm"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvac": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvac": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvac"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvac": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvac": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvac"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_cvmc": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.cvmc": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_cvmc"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_cvmc": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.cvmc": {
+			          "Target": {
+			            "Entity": "tab_mesure.cvmc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.cvmc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_cvmc"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_marges_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_marges_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_marges_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_marges_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_marges_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_marges_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_marges_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_marges_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_marges_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_marges_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_VentesBrutes_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_VentesBrutes_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_VentesBrutes_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesBrutes_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_VentesBrutes_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_VentesNettes_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_VentesNettes_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_VentesNettes_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesNettes_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_VentesNettes_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_couts_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_couts_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_couts_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_couts_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_couts_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_couts_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_couts_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_couts_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_couts_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_couts_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_NbreTransactions_dun_an_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_NbreTransactions_dun_an_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_NbreTransactions_dun_an_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_NbreTransactions_dun_an_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_NbreTransactions_dun_an_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_marges_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_marges_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_marges_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_marges_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_marges_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_marges_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_marges_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_marges_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_marges_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_marges_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_VentesBrutes_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_VentesBrutes_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_VentesBrutes_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesBrutes_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_VentesBrutes_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_VentesNettes_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_VentesNettes_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_VentesNettes_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_VentesNettes_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_VentesNettes_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_couts_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_couts_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_couts_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_couts_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_couts_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "dim_produit_has_tab_mesure_variation_en__de_couts_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimProduit"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_produit": {
+			          "Target": {
+			            "Entity": "dim_produit"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_couts_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_couts_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_produit"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_couts_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_produits_have_variation_en__de_couts_dun_mois_à_lautre"
+			        }
+			      ]
+			    },
+			    "fait_vente_has_tab_mesure_variation_en__de_NbreTransactions_dun_mois_à_lautre": {
+			      "Binding": {
+			        "ConceptualEntity": "FaitVentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fait_vente": {
+			          "Target": {
+			            "Entity": "fait_vente"
+			          }
+			        },
+			        "tab_mesure.variation_en__de_NbreTransactions_dun_mois_à_lautre": {
+			          "Target": {
+			            "Entity": "tab_mesure.variation_en__de_NbreTransactions_dun_mois_à_lautre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fait_vente"
+			            },
+			            "Object": {
+			              "Role": "tab_mesure.variation_en__de_NbreTransactions_dun_mois_à_lautre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fait_ventes_have_variation_en__de_NbreTransactions_dun_mois_à_lautre"
 			        }
 			      ]
 			    },
@@ -3220,39 +4767,6 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "indicateurs_qualité_have_titre_dynamique_district"
-			        }
-			      ]
-			    },
-			    "tab_mesure_has_mesure": {
-			      "Binding": {
-			        "ConceptualEntity": "Tab_mesures"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tab_mesure": {
-			          "Target": {
-			            "Entity": "tab_mesure"
-			          }
-			        },
-			        "tab_mesure.mesure": {
-			          "Target": {
-			            "Entity": "tab_mesure.mesure"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "tab_mesure"
-			            },
-			            "Object": {
-			              "Role": "tab_mesure.mesure"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "tab_mesures_have_mesure"
 			        }
 			      ]
 			    },

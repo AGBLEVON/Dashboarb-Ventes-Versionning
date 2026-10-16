@@ -46,7 +46,8 @@
                 }
               },
               "queryRef": "Tab_mesures.Couts",
-              "nativeQueryRef": "Couts"
+              "nativeQueryRef": "Coûts",
+              "displayName": "Coûts"
             },
             {
               "field": {
@@ -60,7 +61,8 @@
                 }
               },
               "queryRef": "Tab_mesures.VentesNettes",
-              "nativeQueryRef": "VentesNettes"
+              "nativeQueryRef": "Ventes Nettes",
+              "displayName": "Ventes Nettes"
             }
           ]
         }
@@ -320,6 +322,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Couts et Ventes Nettes par Mois'"
                 }
               }
             }
